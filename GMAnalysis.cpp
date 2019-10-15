@@ -89,6 +89,7 @@ void gm_analyse::isMainFunction(void){
 		OUT(tk.now_token); getsym;
 	}
 	isComStatement();
+
 	if (type == RBRACE) {
 		OUT(tk.now_token); getsym;
 	}
